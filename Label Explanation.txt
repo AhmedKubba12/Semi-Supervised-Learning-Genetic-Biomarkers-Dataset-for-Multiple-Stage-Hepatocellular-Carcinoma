@@ -1,0 +1,11 @@
+1:SL Sourrounding liver
+2:LGDN: low grade dysplastic nodules
+3:HGDN: High grade...
+4:eHCC: early HCC
+5:pHCC: progressed HCC
+
+Semi-Supervised Learning Loop:
+1. index extraction
+2. new_samples_adder
+3. label_replacer
+4. performance_tester
