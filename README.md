@@ -121,30 +121,6 @@ Label matching rules during filtering:
 
 ---
 
-## Repository Structure
-
-```
-├── data/
-│   └── hcc_dataset.csv          # Final constructed HCC dataset (770 × 11,150)
-├── preprocessing/
-│   ├── align_features.py        # Gene feature alignment across datasets
-│   └── label_mapping.py         # GSE89377 label mapping to target classes
-├── semi_supervised/
-│   ├── train_xgboost.py         # XGBoost training on Lübeck dataset
-│   ├── predict_tcga.py          # Confidence-filtered label transfer
-│   └── iterative_expansion.py   # Full semi-supervised loop
-├── evaluation/
-│   ├── metrics.py               # Accuracy, precision, recall, F1
-│   └── confusion_matrix.py      # Confusion matrix visualization
-├── figures/
-│   ├── pca_projection.png       # PCA of dataset by class
-│   ├── class_distribution.png   # Class frequency bar chart
-│   └── confusion_matrix.png     # XGBoost confusion matrix
-└── README.md
-```
-
----
-
 ## Requirements
 
 Key dependencies:
