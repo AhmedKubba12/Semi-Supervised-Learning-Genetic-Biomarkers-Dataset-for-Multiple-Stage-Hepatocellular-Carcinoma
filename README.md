@@ -147,10 +147,6 @@ Label matching rules during filtering:
 
 ## Requirements
 
-```bash
-pip install -r requirements.txt
-```
-
 Key dependencies:
 
 - `xgboost`
